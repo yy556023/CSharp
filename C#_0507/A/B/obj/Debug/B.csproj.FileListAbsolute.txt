@@ -1,0 +1,7 @@
+D:\Documents\repo\C#_0507\A\B\bin\Debug\B.exe.config
+D:\Documents\repo\C#_0507\A\B\bin\Debug\B.exe
+D:\Documents\repo\C#_0507\A\B\bin\Debug\B.pdb
+D:\Documents\repo\C#_0507\A\B\obj\Debug\B.csprojAssemblyReference.cache
+D:\Documents\repo\C#_0507\A\B\obj\Debug\B.csproj.CoreCompileInputs.cache
+D:\Documents\repo\C#_0507\A\B\obj\Debug\B.exe
+D:\Documents\repo\C#_0507\A\B\obj\Debug\B.pdb
