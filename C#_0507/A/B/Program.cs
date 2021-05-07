@@ -12,6 +12,7 @@ namespace B
         {
             Console.WriteLine("buuuuuuuuuuruuuuuuuuuuu\nsad\t123");
             Console.WriteLine('d');
+            Console.WriteLine();
 
             Console.ReadLine();
         }
