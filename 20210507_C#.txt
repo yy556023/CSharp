@@ -1,0 +1,77 @@
+
+*** 參考資料 ***
+
+10. .NET 簡介> 執行模型: CLR / JIT
+	https://docs.microsoft.com/zh-tw/dotnet/core/introduction#execution-models
+
+	.NET 簡介> .NET 術語
+	https://docs.microsoft.com/zh-tw/dotnet/core/introduction#net-terminology
+
+	開始使用 .NET Framework
+	https://docs.microsoft.com/zh-tw/dotnet/framework/get-started/
+
+13. 深入理解計算機系統（3.1）------組合語言和機器語言
+	https://images2017.cnblogs.com/blog/1120165/201709/1120165-20170923150056462-657221576.png
+
+15. C# 語言版本控制> Defaults
+	https://docs.microsoft.com/zh-tw/dotnet/csharp/language-reference/configure-language-version#defaults
+
+
+20. 存取修飾詞 (C# 參考) 
+	https://docs.microsoft.com/zh-tw/dotnet/csharp/programming-guide/classes-and-structs/access-modifiers
+
+23. C# 關鍵字總覽：
+	https://docs.microsoft.com/zh-tw/dotnet/csharp/language-reference/keywords/reference-tables-for-types
+
+28. 整數的數字型別 (C# 參考)：
+	https://docs.microsoft.com/zh-tw/dotnet/csharp/language-reference/builtin-types/integral-numeric-types
+
+
+30. 標準數值格式字串 (格式化字串):
+	https://docs.microsoft.com/zh-tw/dotnet/standard/base-types/standard-numeric-format-strings
+
+
+
+
+
+
+*** 底下是練習題 ***
+            
+// 1 試著用Visual C# 6.0之後的字串插補 $""，練習輸出底下日期
+//     輸出結果 ===> 國定假日為：春節、清明節、勞動節、端午節、中秋節、國慶日
+
+
+// 2. 透過格式化的輸出，設定成績只需要輸出至小數第一位
+//    輸出結果 === > 國文成績：80.6、數學成績：76.5
+//    格式化：https://docs.microsoft.com/zh-tw/dotnet/csharp/language-reference/keywords/formatting-numeric-results-table
+// 	
+//     double chinese = 80.56;
+//     double math = 76.54;
+
+// 2-1 試著用Visual C# 6.0之前的 string.format
+// 2-2 試著用Visual C# 6.0之後的 $""
+
+
+// 3. 將輸入的數值(cm)轉換為英吋(inch) 
+//    inch = 2.5399
+
+
+// 4. 輸入兩個數值，比較大小，最後將結果顯示在畫面上
+
+
+// 5. 讓使用者輸入兩個數字，判斷第二個數字是不是第一個數字的倍數
+
+
+// 7. 一件衣服399塊錢，如果消費滿1500，可以打79折
+//   (讓使用者輸入件數，顯示折扣後的金額，或者提示消費者，還差多少錢就可以打折(四捨五入到整數))
+
+
+// 8. 輸入三個數值，判斷是否可以成為三角形，若可以，是哪一種三角形 (Math類別庫)
+//  正三角：三個邊一樣長
+//    等腰：兩個邊一樣長，且不等於第三個邊
+//    直角：兩個邊的平方等於第三邊(最長邊)的平方
+//    鈍角：兩個邊的平方小於第三邊(最長邊)的平方
+//    銳角：兩個邊的平方大於第三邊(最長邊)的平方
+//    * 等腰直角三角形 的情境，這邊先不考慮
+
+
