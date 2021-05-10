@@ -225,22 +225,40 @@ namespace ConsoleApp1
         {
             try
             {
-                Console.WriteLine("----------------------------------------");
-                Console.WriteLine("★輸入三角形三邊長：★");
-                Console.WriteLine("----------------------------------------");
+                Console.WriteLine("--------------------------------------------");
+                Console.WriteLine("★輸入三角形三邊長(數字不等於0且大於0)：★");
+                Console.WriteLine("--------------------------------------------");
                 double x = double.Parse(Console.ReadLine());
                 double y = double.Parse(Console.ReadLine());
                 double z = double.Parse(Console.ReadLine());
+
+
+                double max = Math.Max(x, Math.Max(y, z));
+                double mid = Math.Min(Math.Min(Math.Max(x, y), Math.Max(y, z)), Math.Max(x, z));
+                double min = Math.Min(x, Math.Min(y, z));
+                Console.WriteLine($"MAX：{max:n0} MID：{mid:n0} MIN：{min:n0}");
+
+                x = Math.Abs(x);
+                y = Math.Abs(y);
+                z = Math.Abs(z);
 
                 double[] tri = { x, y, z };
 
                 Array.Sort(tri);
                 Array.Reverse(tri);
+
                 x = tri[0];
                 y = tri[1];
                 z = tri[2];
 
-                if (x != y && y != z && x != z)
+                if (x == y + z || x > y + z)
+                {
+                    Console.WriteLine("無法形成三角形");
+                    Console.ReadKey();
+                    return;
+                }
+
+                if (x != y || y != z || x != z &&(x != 0 && y != 0 && z != 0))
                 {
                     x = Math.Pow(x, 2);
                     y = Math.Pow(y, 2);
@@ -262,10 +280,6 @@ namespace ConsoleApp1
                 else if (x == y && y == z)
                 {
                     Console.WriteLine("正三角");
-                }
-                else //if (x == y || y == z) 
-                {
-                    Console.WriteLine("等腰");
                 }
                 Console.ReadKey();
             }
