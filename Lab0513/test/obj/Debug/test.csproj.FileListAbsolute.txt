@@ -1,0 +1,7 @@
+D:\Documents\repo\C#\Lab0513\test\bin\Debug\test.exe.config
+D:\Documents\repo\C#\Lab0513\test\bin\Debug\test.exe
+D:\Documents\repo\C#\Lab0513\test\bin\Debug\test.pdb
+D:\Documents\repo\C#\Lab0513\test\obj\Debug\test.csprojAssemblyReference.cache
+D:\Documents\repo\C#\Lab0513\test\obj\Debug\test.csproj.CoreCompileInputs.cache
+D:\Documents\repo\C#\Lab0513\test\obj\Debug\test.exe
+D:\Documents\repo\C#\Lab0513\test\obj\Debug\test.pdb

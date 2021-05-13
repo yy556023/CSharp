@@ -27,12 +27,12 @@ namespace ConsoleApp2
             //Console.WriteLine(y.GetType());
             //Console.WriteLine(z.GetType());
 
-            int a = 4; 
-            int b = 3;
+            // int a = 4; 
+            // int b = 3;
             double c = 5.2;
 
             Console.WriteLine(c);
-           
+
 
         }
     }

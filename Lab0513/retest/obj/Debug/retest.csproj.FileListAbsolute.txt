@@ -1,0 +1,6 @@
+D:\Documents\repo\C#\Lab0513\retest\bin\Debug\retest.exe.config
+D:\Documents\repo\C#\Lab0513\retest\bin\Debug\retest.exe
+D:\Documents\repo\C#\Lab0513\retest\bin\Debug\retest.pdb
+D:\Documents\repo\C#\Lab0513\retest\obj\Debug\retest.csproj.CoreCompileInputs.cache
+D:\Documents\repo\C#\Lab0513\retest\obj\Debug\retest.exe
+D:\Documents\repo\C#\Lab0513\retest\obj\Debug\retest.pdb
