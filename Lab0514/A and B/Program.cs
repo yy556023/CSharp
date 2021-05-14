@@ -22,11 +22,17 @@ namespace A_and_B
             //亂數物件
             Random r = new Random();
 
-            //
+            //輸入紀錄
             List<string> at = new List<string>();
 
             //迴圈用
             int i, j;
+
+            //檢測字串重複用
+            bool m = false;
+
+            //計次用
+            int t = 0;
 
             //顯示幾A幾B用
             int A = 0;
@@ -63,74 +69,78 @@ namespace A_and_B
                 //使用者輸入字串
                 a = Console.ReadLine();
 
-                //如果字串長度不對不執行判定
-                if (int.TryParse(a, out int abc))
+                //檢查字串內是否有重複
+                for (i = 0; i < 9; i++)
                 {
-                    if (a.Length != 4)
+                    if (a.IndexOf(i.ToString()) != a.LastIndexOf(i.ToString()))
                     {
-                        Console.WriteLine("數字長度不符！");
-                    }
-                    //檢查輸入字串是否已經輸入過了
-                    else if (at.Contains(a))
-                    {
-                        Console.WriteLine("輸入過囉！\n");
-                    }
-                    //對了就執行
-                    else
-                    {
-                        //添加字串到輸入紀錄
-                        at.Add(a);
-                        //字串分割後放進put陣列(型態int)
-                        try
-                        {
-                            for (i = 0; i < 4; i++)
-                            {
-                                put[i] = Convert.ToInt32(a.Substring(i, 1));
-                            }
-
-                            //put陣列的數字依序對比ans陣列  
-                            for (i = 0; i < 4; i++)
-                            {
-                                for (j = 0; j < 4; j++)
-                                {
-                                    if (put[i] == ans[j])
-                                    {
-
-                                        //如果值相同index也相同則 + A
-                                        if (i == j)
-                                        {
-                                            A += 1;
-                                        }
-                                        //如果值相同index不同則 + B
-                                        else
-                                        {
-                                            B += 1;
-                                        }
-                                    }
-                                }
-                            }
-                            //顯示幾A幾B
-                            Console.WriteLine(A + "A " + B + "B\n");
-                        }
-                        catch (Exception e)
-                        {
-                            Console.WriteLine(e.Message + "\n");
-                        }
+                        m = true;
+                        break;
                     }
                 }
+
+                //依權重來判斷錯誤 先判斷輸入的是不是數字
+                if (!int.TryParse(a, out int abc))
+                {
+                    Console.WriteLine("輸入非數字！\n");
+                }
+                //如果是數字 長度有沒有符合
+                else if (a.Length != 4)
+                {
+                    Console.WriteLine("數字長度不符！\n");
+                }
+                //如果是數字 長度也符合 則檢查字串內是否有重複
+                else if (m)
+                {
+                    //把檢查字串內數字重複的判定重設
+                    m = false;
+
+                    Console.WriteLine("字串內數字重複！\n");
+                }
+                //以上條件都符合 則檢查輸入紀錄是否輸入過了
+                else if (at.Contains(a))
+                {
+                    Console.WriteLine("輸入過囉！\n");
+                }
+                //所有條件都正確則開始執行比對動作
                 else
                 {
-                    Console.WriteLine("輸入非數字！");
+                    //添加字串到輸入紀錄
+                    at.Add(a);
+
+                    //字串分割後放進put陣列(型態int)
+                    for (i = 0; i < 4; i++)
+                    {
+                        put[i] = Convert.ToInt32(a.Substring(i, 1));
+                    }
+
+                    //put陣列的數字依序對比ans陣列  
+                    for (i = 0; i < 4; i++)
+                    {
+                        for (j = 0; j < 4; j++)
+                        {
+                            if (put[i] == ans[j])
+                            {
+
+                                //如果值相同index也相同則 + A
+                                if (i == j)
+                                {
+                                    A += 1;
+                                }
+                                //如果值相同index不同則 + B
+                                else
+                                {
+                                    B += 1;
+                                }
+                            }
+                        }
+                    }
+                    //顯示幾A幾B
+                    Console.WriteLine(A + "A " + B + "B\n");
                 }
             }
-
             Console.WriteLine("答對了");
             Console.ReadKey();
-        }
-
-        static void f1()
-        {
-
         }
     }
 }
