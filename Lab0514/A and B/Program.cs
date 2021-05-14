@@ -10,73 +10,126 @@ namespace A_and_B
     {
         static void Main()
         {
-            f1();
-        }
+            //亂數陣列
+            int[] ans = new int[4];
 
-        static void f1()
-        {
-            //字串陣列
-            int[] s = { -1, -1, -1, -1 };
+            //使用者輸入的字串
+            string a = "";
 
+            //字串分割後 轉型成int放的陣列
+            int[] put = new int[4];
+
+            //亂數物件
             Random r = new Random();
 
-            s[0] = r.Next(0, 10);
+            //
+            List<string> at = new List<string>();
 
-            int i = 1;
-            int j = 0;
+            //迴圈用
+            int i, j;
 
-            while (s[3] == -1)
-            {
-                s[i] = r.Next(0, 10);
-                if (s[i] == s[i - 1])
-                {
-                    s[i] = r.Next(0,10);
-                }
-                i++;
-            }
+            //顯示幾A幾B用
+            int A = 0;
+            int B = 0;
 
+            //產生不重複的四位亂數
             for (i = 0; i < 4; i++)
             {
+                ans[i] = r.Next(0, 10);
                 for (j = 0; j < i; j++)
                 {
-                    if(s[i] == s[j])
+                    while (ans[i] == ans[j])
                     {
-                        s[i] = r.Next(0, 10);
                         j = 0;
-                        i = 0;
+                        ans[i] = r.Next(0, 10);
                     }
                 }
             }
 
-            int a = 0;
-            int b = 0;
-
-            //拆起來的字串陣列
-            string[] z = new string[4];
-            int[] ss = new int[4];
-            //輸入一串數字
-            string temp = Console.ReadLine();
-
-            for (i = 0; i < 4; i++)
+            //DEBUG用顯示答案
+            foreach (var item in ans)
             {
-                z[i] = temp.Substring(i, 1);
-                ss[i] = int.Parse(z[i]);
+                Console.Write(item);
+            }
+            Console.WriteLine();
+
+            //如果沒答對就不斷執行while迴圈
+            while (A != 4)
+            {
+                //答案不對 A，B要歸零
+                A = 0;
+                B = 0;
+
+                //使用者輸入字串
+                a = Console.ReadLine();
+
+                //如果字串長度不對不執行判定
+                if (int.TryParse(a, out int abc))
+                {
+                    if (a.Length != 4)
+                    {
+                        Console.WriteLine("數字長度不符！");
+                    }
+                    //檢查輸入字串是否已經輸入過了
+                    else if (at.Contains(a))
+                    {
+                        Console.WriteLine("輸入過囉！\n");
+                    }
+                    //對了就執行
+                    else
+                    {
+                        //添加字串到輸入紀錄
+                        at.Add(a);
+                        //字串分割後放進put陣列(型態int)
+                        try
+                        {
+                            for (i = 0; i < 4; i++)
+                            {
+                                put[i] = Convert.ToInt32(a.Substring(i, 1));
+                            }
+
+                            //put陣列的數字依序對比ans陣列  
+                            for (i = 0; i < 4; i++)
+                            {
+                                for (j = 0; j < 4; j++)
+                                {
+                                    if (put[i] == ans[j])
+                                    {
+
+                                        //如果值相同index也相同則 + A
+                                        if (i == j)
+                                        {
+                                            A += 1;
+                                        }
+                                        //如果值相同index不同則 + B
+                                        else
+                                        {
+                                            B += 1;
+                                        }
+                                    }
+                                }
+                            }
+                            //顯示幾A幾B
+                            Console.WriteLine(A + "A " + B + "B\n");
+                        }
+                        catch (Exception e)
+                        {
+                            Console.WriteLine(e.Message + "\n");
+                        }
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("輸入非數字！");
+                }
             }
 
-            
-
-            foreach(var t in ss)
-            {
-                Console.WriteLine(t);
-            }
-            foreach (var t in s)
-            {
-                Console.WriteLine(t);
-            }
-
-
+            Console.WriteLine("答對了");
             Console.ReadKey();
+        }
 
+        static void f1()
+        {
 
         }
     }
