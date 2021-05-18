@@ -1,0 +1,7 @@
+D:\Documents\repo\C#\Lab0517\ConsoleApp1\猜數字\bin\Debug\猜數字.exe.config
+D:\Documents\repo\C#\Lab0517\ConsoleApp1\猜數字\bin\Debug\猜數字.exe
+D:\Documents\repo\C#\Lab0517\ConsoleApp1\猜數字\bin\Debug\猜數字.pdb
+D:\Documents\repo\C#\Lab0517\ConsoleApp1\猜數字\obj\Debug\猜數字.csproj.CoreCompileInputs.cache
+D:\Documents\repo\C#\Lab0517\ConsoleApp1\猜數字\obj\Debug\猜數字.exe
+D:\Documents\repo\C#\Lab0517\ConsoleApp1\猜數字\obj\Debug\猜數字.pdb
+D:\Documents\repo\C#\Lab0517\ConsoleApp1\猜數字\obj\Debug\猜數字.csprojAssemblyReference.cache

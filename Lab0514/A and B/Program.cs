@@ -57,7 +57,7 @@ namespace A_and_B
             {
                 Console.Write(item);
             }
-            Console.WriteLine();
+            Console.WriteLine("\n");
 
             //如果沒答對就不斷執行while迴圈
             while (A != 4)

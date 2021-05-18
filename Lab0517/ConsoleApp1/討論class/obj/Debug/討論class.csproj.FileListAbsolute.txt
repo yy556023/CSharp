@@ -1,0 +1,7 @@
+D:\Documents\repo\C#\Lab0517\ConsoleApp1\討論class\bin\Debug\討論class.exe.config
+D:\Documents\repo\C#\Lab0517\ConsoleApp1\討論class\bin\Debug\討論class.exe
+D:\Documents\repo\C#\Lab0517\ConsoleApp1\討論class\bin\Debug\討論class.pdb
+D:\Documents\repo\C#\Lab0517\ConsoleApp1\討論class\obj\Debug\討論class.csproj.CoreCompileInputs.cache
+D:\Documents\repo\C#\Lab0517\ConsoleApp1\討論class\obj\Debug\討論class.exe
+D:\Documents\repo\C#\Lab0517\ConsoleApp1\討論class\obj\Debug\討論class.pdb
+D:\Documents\repo\C#\Lab0517\ConsoleApp1\討論class\obj\Debug\討論class.csprojAssemblyReference.cache
