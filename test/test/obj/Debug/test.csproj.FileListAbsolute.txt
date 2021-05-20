@@ -1,7 +1,0 @@
-D:\Documents\repo\C#\test\test\bin\Debug\test.exe.config
-D:\Documents\repo\C#\test\test\bin\Debug\test.exe
-D:\Documents\repo\C#\test\test\bin\Debug\test.pdb
-D:\Documents\repo\C#\test\test\obj\Debug\test.csprojAssemblyReference.cache
-D:\Documents\repo\C#\test\test\obj\Debug\test.csproj.CoreCompileInputs.cache
-D:\Documents\repo\C#\test\test\obj\Debug\test.exe
-D:\Documents\repo\C#\test\test\obj\Debug\test.pdb

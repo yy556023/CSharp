@@ -24,11 +24,10 @@ namespace 討論class
 
         static void Main(string[] args)
         {
-            //Teacher t1 = new Teacher("Flower", 901);
-            //t1.PrintTeacherInfo();
+            Teacher t1 = new Teacher("Flower", 901);
+            t1.PrintTeacherInfo();
 
-
-            //第一個學生
+          //第一個學生
             //Student s1 = new Student();
             //s1.StudentName = "Fuck";
             //s1.Chinese = 80;
@@ -49,11 +48,11 @@ namespace 討論class
             //Console.WriteLine(s3.English);
 
             //第四個學生
-            Student s4 = new Student("Dog", 91, 81, 120);
-            Console.WriteLine(s4.StudentName);
-            Console.WriteLine(s4.Chinese);
-            Console.WriteLine(s4.English);
-            Console.WriteLine(s4.Math);
+            //Student s4 = new Student("Dog", 91, 81, 120);
+            //Console.WriteLine(s4.StudentName);
+            //Console.WriteLine(s4.Chinese);
+            //Console.WriteLine(s4.English);
+            //Console.WriteLine(s4.Math);
             
             //第五個學生
             //Student s5 = new Student("B", 54, 46, 87, 120);

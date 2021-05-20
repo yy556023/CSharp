@@ -27,21 +27,21 @@ namespace ConsoleApp1
                 s_t = Console.ReadLine();
                 Console.WriteLine("請輸入離場時間：");
                 e_t = Console.ReadLine();
-                
+
                 //獲取入場時間及離場時間 時 分
-                double.TryParse(s_t.Substring(2, 2), out double s_y); 
-                double.TryParse(e_t.Substring(2, 2), out double e_y); 
-                double.TryParse(e_t.Substring(0, 2), out double e_x); 
-                double.TryParse(s_t.Substring(0, 2), out double s_x);
+                double.TryParse(s_t.Substring(0, 2), out double s_h);
+                double.TryParse(s_t.Substring(2, 2), out double s_m); 
+                double.TryParse(e_t.Substring(0, 2), out double e_h); 
+                double.TryParse(e_t.Substring(2, 2), out double e_m);
 
                 //經過時間
                 double time;
 
                 //計費
-                double sum = 0;  
-                
+                double sum = 0;
+
                 //把經過時間算出來
-                time = (e_x - s_x) * 60 + (e_y - s_y); //單位分
+                time = (e_h - s_h) * 60 + (e_m - s_m); //單位分
 
                 if (time > 90)
                 {
@@ -50,7 +50,6 @@ namespace ConsoleApp1
                 else if (time > 30)
                 {
                     sum = (Math.Ceiling(time / 30) - 1) * 20;
-                    //0806 0906
                 }
                 else
                 {
@@ -63,4 +62,6 @@ namespace ConsoleApp1
             }
         }
     }
+
+
 }

@@ -1,0 +1,11 @@
+D:\Documents\repo\C#\Lab0520\Lab0520\bin\Debug\Lab0520.exe.config
+D:\Documents\repo\C#\Lab0520\Lab0520\bin\Debug\Lab0520.exe
+D:\Documents\repo\C#\Lab0520\Lab0520\bin\Debug\Lab0520.pdb
+D:\Documents\repo\C#\Lab0520\Lab0520\obj\Debug\Lab0520.csprojAssemblyReference.cache
+D:\Documents\repo\C#\Lab0520\Lab0520\obj\Debug\Lab0520.Form1.resources
+D:\Documents\repo\C#\Lab0520\Lab0520\obj\Debug\Lab0520.Properties.Resources.resources
+D:\Documents\repo\C#\Lab0520\Lab0520\obj\Debug\Lab0520.csproj.GenerateResource.cache
+D:\Documents\repo\C#\Lab0520\Lab0520\obj\Debug\Lab0520.csproj.CoreCompileInputs.cache
+D:\Documents\repo\C#\Lab0520\Lab0520\obj\Debug\Lab0520.exe
+D:\Documents\repo\C#\Lab0520\Lab0520\obj\Debug\Lab0520.pdb
+D:\Documents\repo\C#\Lab0520\Lab0520\obj\Debug\Lab0520.Form2.resources
