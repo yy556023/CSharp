@@ -41,12 +41,13 @@ namespace Lab0520
 
         private void set()
         {
-            da.Fill(ds, "DimCurrency");
-            dataGridView1.DataSource = ds.Tables["DimCurrency"];
+            da.Fill(ds, "DimCurry");
+            dataGridView1.DataSource = ds.Tables["DimCurry"];
 
-            dataGridView1.Columns[0].HeaderText = "流水號";
-            dataGridView1.Columns[1].HeaderText = "幣別";
-            dataGridView1.Columns[2].HeaderText = "完整名稱";
+            //dataGridView1.Columns[0].HeaderText = "流水號";
+            //dataGridView1.Columns[1].HeaderText = "幣別";
+            //dataGridView1.Columns[2].HeaderText = "完整名稱";
+
             dataGridView1.RowTemplate.Height = 20;
             dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
         }
@@ -58,23 +59,20 @@ namespace Lab0520
             {
                 ds.Tables[0].Clear();
             }
-
             set();
         }
 
         private void btnWhere_Click(object sender, EventArgs e)
         {
-            da.SelectCommand = new SqlCommand("select * from DimCurrency where CurrencyAlternateKey = @apple", cn);
+            da.SelectCommand = new SqlCommand("select @apple from DimCurrency", cn);
+            //da.SelectCommand = new SqlCommand("select * from DimCurrency where CurrencyAlternateKey = @apple", cn);
             da.SelectCommand.Parameters.AddWithValue("@apple", txtWhere.Text);
             //ds.Tables.Count> 0
-            if (ds.Tables["DimCurrency"] != null && ds.Tables[0].Rows.Count > 0) 
+            if (ds.Tables["DimCurry"] != null && ds.Tables[0].Rows.Count > 0) 
             {
                 ds.Tables[0].Clear();
             }
-            
-
             set();
-
         }
 
         private void btnWhereWith_Click(object sender, EventArgs e)
