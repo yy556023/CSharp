@@ -1,0 +1,10 @@
+D:\Documents\repo\C#\Pratice0521\Pratice0521\bin\Debug\Pratice0521.exe.config
+D:\Documents\repo\C#\Pratice0521\Pratice0521\bin\Debug\Pratice0521.exe
+D:\Documents\repo\C#\Pratice0521\Pratice0521\bin\Debug\Pratice0521.pdb
+D:\Documents\repo\C#\Pratice0521\Pratice0521\obj\Debug\Pratice0521.csprojAssemblyReference.cache
+D:\Documents\repo\C#\Pratice0521\Pratice0521\obj\Debug\Pratice0521.Form1.resources
+D:\Documents\repo\C#\Pratice0521\Pratice0521\obj\Debug\Pratice0521.Properties.Resources.resources
+D:\Documents\repo\C#\Pratice0521\Pratice0521\obj\Debug\Pratice0521.csproj.GenerateResource.cache
+D:\Documents\repo\C#\Pratice0521\Pratice0521\obj\Debug\Pratice0521.csproj.CoreCompileInputs.cache
+D:\Documents\repo\C#\Pratice0521\Pratice0521\obj\Debug\Pratice0521.exe
+D:\Documents\repo\C#\Pratice0521\Pratice0521\obj\Debug\Pratice0521.pdb

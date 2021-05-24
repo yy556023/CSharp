@@ -42,8 +42,6 @@ namespace Lab0521
             dataGridView1.Columns["CurrencyName"].HeaderText = "完整名稱";
             dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
 
-            //button1.Enabled = false;
-
             textBox1.DataBindings.Add("Text", ds.Tables["DimCurrency"], "CurrencyKey");
             textBox2.DataBindings.Add("Text", ds.Tables["DimCurrency"], "CurrencyAlternateKey");
             textBox3.DataBindings.Add("Text", ds.Tables["DimCurrency"], "CurrencyName");
@@ -63,6 +61,7 @@ namespace Lab0521
         {
             SqlCommandBuilder cb = new SqlCommandBuilder(da);
             da.UpdateCommand = cb.GetUpdateCommand();
+            
             int i = da.Update(ds.Tables["DimCurrency"]);
 
             textBox4.Text = cb.GetUpdateCommand().CommandText + Environment.NewLine;
