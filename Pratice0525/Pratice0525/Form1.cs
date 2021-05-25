@@ -252,20 +252,24 @@ namespace Pratice0525
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-            string temp = "";
+            if (ds.Tables.Count > 0)
+            {
 
-            foreach (DataRow item in ds.Tables["Dim"].Rows)
-            {
-                if (item.RowState == DataRowState.Modified || item.RowState == DataRowState.Added)
+                string temp = "";
+
+                foreach (DataRow item in ds.Tables["Dim"].Rows)
                 {
-                    temp += string.Join(",", item.ItemArray) + "\r\n";
+                    if (item.RowState == DataRowState.Modified || item.RowState == DataRowState.Added)
+                    {
+                        temp += string.Join(",", item.ItemArray) + "\r\n";
+                    }
                 }
-            }
-            if (temp.Length > 0) 
-            {
-                if (MessageBox.Show($"有尚未保存的資料：\r\n{temp}確定要離開嗎？", "資料未保存", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning) == DialogResult.Cancel) 
+                if (temp.Length > 0)
                 {
-                    e.Cancel = true;
+                    if (MessageBox.Show($"有尚未保存的資料：\r\n{temp}確定要離開嗎？", "資料未保存", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning) == DialogResult.Cancel)
+                    {
+                        e.Cancel = true;
+                    }
                 }
             }
         }
