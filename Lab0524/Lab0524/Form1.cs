@@ -38,6 +38,8 @@ namespace Lab0524
             button3.Text = "Insert";
             button4.Text = "Insert V2";
             button5.Text = "Insert V3";
+            button6.Text = "Delete";
+            button7.Text = "Delete V2";
             label1.Text = "CurrencyKey";
             label2.Text = "CurrencyAlternateKey";
             label3.Text = "CurrencyName";
@@ -136,6 +138,34 @@ namespace Lab0524
             da.InsertCommand = cmd;
             da.InsertCommand.ExecuteNonQuery();
             cn.Close();
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            int index = dataGridView1.CurrentRow.Index;
+            textBox4.Text = index + 1 + " - " + string.Join(",", ds.Tables["Dim"].Rows[index].ItemArray);
+
+            ds.Tables["Dim"].Rows[index].Delete();
+
+            SqlCommandBuilder cb = new SqlCommandBuilder(da);
+            da.DeleteCommand = cb.GetDeleteCommand();
+            da.Update(ds.Tables["Dim"]);
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            SqlCommand cmd = new SqlCommand();
+            cmd.Connection = cn;
+            cmd.CommandText = "DELETE DimCurrency WHERE CurrencyKey = @a";
+            cmd.Parameters.AddWithValue("@a", textBox1.Text);
+
+            cn.Open();
+            da.DeleteCommand = cmd;
+            da.DeleteCommand.ExecuteReader();
+            cn.Close();
+
+            textBox4.Text = "delete complete";
 
         }
     }
