@@ -58,6 +58,7 @@ namespace Pratice0525
             dataGridView1.Columns["CurrencyName"].HeaderText = "完整名稱";
         }
 
+        // 點擊dgv文字顯示到tb
         private void dataGridView1_MouseClick(object sender, MouseEventArgs e)
         {
             //textBox1.Text = dataGridView1.CurrentRow.Cells["CurrencyKey"].Value.ToString();
@@ -250,6 +251,7 @@ namespace Pratice0525
             dataGridView1.Rows[index].Selected = true;
         }
 
+        // 取消關閉視窗
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
             if (ds.Tables.Count > 0)

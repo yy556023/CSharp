@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab0528", "Lab0528\Lab0528.csproj", "{30CCF281-AA5C-43CE-B042-91D04DDD2314}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab0528_dll", "Lab0528_dll\Lab0528_dll.csproj", "{FFE19534-247B-4492-927B-C9B4923C3246}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30CCF281-AA5C-43CE-B042-91D04DDD2314}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30CCF281-AA5C-43CE-B042-91D04DDD2314}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30CCF281-AA5C-43CE-B042-91D04DDD2314}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30CCF281-AA5C-43CE-B042-91D04DDD2314}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFE19534-247B-4492-927B-C9B4923C3246}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFE19534-247B-4492-927B-C9B4923C3246}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFE19534-247B-4492-927B-C9B4923C3246}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFE19534-247B-4492-927B-C9B4923C3246}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4CB5B03D-E404-451D-8561-F8885BBE6132}
+	EndGlobalSection
+EndGlobal

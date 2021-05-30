@@ -1,0 +1,10 @@
+D:\Documents\repo\C#\Lab0527\sp\obj\Debug\sp.Form1.resources
+D:\Documents\repo\C#\Lab0527\sp\obj\Debug\sp.Properties.Resources.resources
+D:\Documents\repo\C#\Lab0527\sp\obj\Debug\sp.csproj.GenerateResource.cache
+D:\Documents\repo\C#\Lab0527\sp\obj\Debug\sp.csproj.CoreCompileInputs.cache
+D:\Documents\repo\C#\Lab0527\sp\bin\Debug\sp.exe.config
+D:\Documents\repo\C#\Lab0527\sp\bin\Debug\sp.exe
+D:\Documents\repo\C#\Lab0527\sp\bin\Debug\sp.pdb
+D:\Documents\repo\C#\Lab0527\sp\obj\Debug\sp.exe
+D:\Documents\repo\C#\Lab0527\sp\obj\Debug\sp.pdb
+D:\Documents\repo\C#\Lab0527\sp\obj\Debug\sp.csproj.AssemblyReference.cache

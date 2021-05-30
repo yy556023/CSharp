@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab0528_exe", "Lab0528_exe\Lab0528_exe.csproj", "{EDB5626C-DF3F-4A43-85AC-71583FCFDE3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab0528_dll", "Lab0528_dll\Lab0528_dll.csproj", "{095E9FEA-2D26-4D9A-B806-68440E36587C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDB5626C-DF3F-4A43-85AC-71583FCFDE3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDB5626C-DF3F-4A43-85AC-71583FCFDE3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDB5626C-DF3F-4A43-85AC-71583FCFDE3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDB5626C-DF3F-4A43-85AC-71583FCFDE3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{095E9FEA-2D26-4D9A-B806-68440E36587C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{095E9FEA-2D26-4D9A-B806-68440E36587C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{095E9FEA-2D26-4D9A-B806-68440E36587C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{095E9FEA-2D26-4D9A-B806-68440E36587C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B345AA40-1208-4B9A-AEB8-F02C6BF3B70E}
+	EndGlobalSection
+EndGlobal
