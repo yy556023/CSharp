@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "練習繼承/1.0.0": {
+        "dependencies": {
+          "練習元件": "1.0.0"
+        },
+        "runtime": {
+          "練習繼承.dll": {}
+        }
+      },
+      "練習元件/1.0.0": {
+        "runtime": {
+          "練習元件.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "練習繼承/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "練習元件/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

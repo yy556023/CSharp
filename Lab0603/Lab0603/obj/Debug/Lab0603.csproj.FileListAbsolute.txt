@@ -1,0 +1,10 @@
+D:\Documents\repo\C#\Lab0603\Lab0603\bin\Debug\Lab0603.exe.config
+D:\Documents\repo\C#\Lab0603\Lab0603\bin\Debug\Lab0603.exe
+D:\Documents\repo\C#\Lab0603\Lab0603\bin\Debug\Lab0603.pdb
+D:\Documents\repo\C#\Lab0603\Lab0603\obj\Debug\Lab0603.csproj.AssemblyReference.cache
+D:\Documents\repo\C#\Lab0603\Lab0603\obj\Debug\Lab0603.Form1.resources
+D:\Documents\repo\C#\Lab0603\Lab0603\obj\Debug\Lab0603.Properties.Resources.resources
+D:\Documents\repo\C#\Lab0603\Lab0603\obj\Debug\Lab0603.csproj.GenerateResource.cache
+D:\Documents\repo\C#\Lab0603\Lab0603\obj\Debug\Lab0603.csproj.CoreCompileInputs.cache
+D:\Documents\repo\C#\Lab0603\Lab0603\obj\Debug\Lab0603.exe
+D:\Documents\repo\C#\Lab0603\Lab0603\obj\Debug\Lab0603.pdb

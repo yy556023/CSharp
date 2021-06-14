@@ -1,0 +1,11 @@
+D:\Documents\repo\C#\練習繼承\練習元件\bin\Debug\net5.0-windows\練習元件.deps.json
+D:\Documents\repo\C#\練習繼承\練習元件\bin\Debug\net5.0-windows\練習元件.dll
+D:\Documents\repo\C#\練習繼承\練習元件\bin\Debug\net5.0-windows\ref\練習元件.dll
+D:\Documents\repo\C#\練習繼承\練習元件\bin\Debug\net5.0-windows\練習元件.pdb
+D:\Documents\repo\C#\練習繼承\練習元件\obj\Debug\net5.0-windows\練習元件.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\repo\C#\練習繼承\練習元件\obj\Debug\net5.0-windows\練習元件.AssemblyInfoInputs.cache
+D:\Documents\repo\C#\練習繼承\練習元件\obj\Debug\net5.0-windows\練習元件.AssemblyInfo.cs
+D:\Documents\repo\C#\練習繼承\練習元件\obj\Debug\net5.0-windows\練習元件.csproj.CoreCompileInputs.cache
+D:\Documents\repo\C#\練習繼承\練習元件\obj\Debug\net5.0-windows\練習元件.dll
+D:\Documents\repo\C#\練習繼承\練習元件\obj\Debug\net5.0-windows\ref\練習元件.dll
+D:\Documents\repo\C#\練習繼承\練習元件\obj\Debug\net5.0-windows\練習元件.pdb

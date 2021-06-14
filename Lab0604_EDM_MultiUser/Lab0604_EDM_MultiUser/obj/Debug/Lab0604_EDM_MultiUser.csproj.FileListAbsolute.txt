@@ -1,0 +1,16 @@
+D:\Documents\repo\C#\Lab0604_EDM_MultiUser\Lab0604_EDM_MultiUser\bin\Debug\Lab0604_EDM_MultiUser.exe.config
+D:\Documents\repo\C#\Lab0604_EDM_MultiUser\Lab0604_EDM_MultiUser\bin\Debug\Lab0604_EDM_MultiUser.exe
+D:\Documents\repo\C#\Lab0604_EDM_MultiUser\Lab0604_EDM_MultiUser\bin\Debug\Lab0604_EDM_MultiUser.pdb
+D:\Documents\repo\C#\Lab0604_EDM_MultiUser\Lab0604_EDM_MultiUser\bin\Debug\EntityFramework.dll
+D:\Documents\repo\C#\Lab0604_EDM_MultiUser\Lab0604_EDM_MultiUser\bin\Debug\EntityFramework.SqlServer.dll
+D:\Documents\repo\C#\Lab0604_EDM_MultiUser\Lab0604_EDM_MultiUser\bin\Debug\EntityFramework.xml
+D:\Documents\repo\C#\Lab0604_EDM_MultiUser\Lab0604_EDM_MultiUser\bin\Debug\EntityFramework.SqlServer.xml
+D:\Documents\repo\C#\Lab0604_EDM_MultiUser\Lab0604_EDM_MultiUser\bin\Debug\zh-Hant\EntityFramework.resources.dll
+D:\Documents\repo\C#\Lab0604_EDM_MultiUser\Lab0604_EDM_MultiUser\obj\Debug\Lab0604_EDM_MultiUser.csproj.AssemblyReference.cache
+D:\Documents\repo\C#\Lab0604_EDM_MultiUser\Lab0604_EDM_MultiUser\obj\Debug\Lab0604_EDM_MultiUser.Form1.resources
+D:\Documents\repo\C#\Lab0604_EDM_MultiUser\Lab0604_EDM_MultiUser\obj\Debug\Lab0604_EDM_MultiUser.Properties.Resources.resources
+D:\Documents\repo\C#\Lab0604_EDM_MultiUser\Lab0604_EDM_MultiUser\obj\Debug\Lab0604_EDM_MultiUser.csproj.GenerateResource.cache
+D:\Documents\repo\C#\Lab0604_EDM_MultiUser\Lab0604_EDM_MultiUser\obj\Debug\Lab0604_EDM_MultiUser.csproj.CoreCompileInputs.cache
+D:\Documents\repo\C#\Lab0604_EDM_MultiUser\Lab0604_EDM_MultiUser\obj\Debug\Lab0604_EDM_MultiUser.csproj.CopyComplete
+D:\Documents\repo\C#\Lab0604_EDM_MultiUser\Lab0604_EDM_MultiUser\obj\Debug\Lab0604_EDM_MultiUser.exe
+D:\Documents\repo\C#\Lab0604_EDM_MultiUser\Lab0604_EDM_MultiUser\obj\Debug\Lab0604_EDM_MultiUser.pdb

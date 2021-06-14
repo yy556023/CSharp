@@ -1,0 +1,16 @@
+D:\Documents\repo\C#\Lab0604\Lab0604\obj\Debug\Lab0604.csproj.AssemblyReference.cache
+D:\Documents\repo\C#\Lab0604\Lab0604\obj\Debug\Lab0604.Form1.resources
+D:\Documents\repo\C#\Lab0604\Lab0604\obj\Debug\Lab0604.Properties.Resources.resources
+D:\Documents\repo\C#\Lab0604\Lab0604\obj\Debug\Lab0604.csproj.GenerateResource.cache
+D:\Documents\repo\C#\Lab0604\Lab0604\obj\Debug\Lab0604.csproj.CoreCompileInputs.cache
+D:\Documents\repo\C#\Lab0604\Lab0604\bin\Debug\Lab0604.exe.config
+D:\Documents\repo\C#\Lab0604\Lab0604\bin\Debug\Lab0604.exe
+D:\Documents\repo\C#\Lab0604\Lab0604\bin\Debug\Lab0604.pdb
+D:\Documents\repo\C#\Lab0604\Lab0604\bin\Debug\EntityFramework.dll
+D:\Documents\repo\C#\Lab0604\Lab0604\bin\Debug\EntityFramework.SqlServer.dll
+D:\Documents\repo\C#\Lab0604\Lab0604\bin\Debug\EntityFramework.xml
+D:\Documents\repo\C#\Lab0604\Lab0604\bin\Debug\EntityFramework.SqlServer.xml
+D:\Documents\repo\C#\Lab0604\Lab0604\bin\Debug\zh-Hant\EntityFramework.resources.dll
+D:\Documents\repo\C#\Lab0604\Lab0604\obj\Debug\Lab0604.csproj.CopyComplete
+D:\Documents\repo\C#\Lab0604\Lab0604\obj\Debug\Lab0604.exe
+D:\Documents\repo\C#\Lab0604\Lab0604\obj\Debug\Lab0604.pdb

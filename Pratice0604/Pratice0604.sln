@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pratice0604_ADO.NET", "Pratice0604\Pratice0604_ADO.NET.csproj", "{9C57568D-244C-4354-AC24-53A097A8975F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pratice0604_Model", "Pratice0604_Model\Pratice0604_Model.csproj", "{66919EE9-43CC-4A76-B547-5C5473EBC93D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C57568D-244C-4354-AC24-53A097A8975F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C57568D-244C-4354-AC24-53A097A8975F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C57568D-244C-4354-AC24-53A097A8975F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C57568D-244C-4354-AC24-53A097A8975F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66919EE9-43CC-4A76-B547-5C5473EBC93D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66919EE9-43CC-4A76-B547-5C5473EBC93D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66919EE9-43CC-4A76-B547-5C5473EBC93D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66919EE9-43CC-4A76-B547-5C5473EBC93D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {36B1E58E-B79B-48F5-BF36-76973B822D1B}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,14 @@
+D:\Documents\repo\C#\Lab0603\Lab0603_EDM\bin\Debug\Lab0603_EDM.exe.config
+D:\Documents\repo\C#\Lab0603\Lab0603_EDM\bin\Debug\Lab0603_EDM.exe
+D:\Documents\repo\C#\Lab0603\Lab0603_EDM\bin\Debug\Lab0603_EDM.pdb
+D:\Documents\repo\C#\Lab0603\Lab0603_EDM\bin\Debug\EntityFramework.dll
+D:\Documents\repo\C#\Lab0603\Lab0603_EDM\bin\Debug\EntityFramework.xml
+D:\Documents\repo\C#\Lab0603\Lab0603_EDM\bin\Debug\zh-Hant\EntityFramework.resources.dll
+D:\Documents\repo\C#\Lab0603\Lab0603_EDM\obj\Debug\Lab0603_EDM.csproj.AssemblyReference.cache
+D:\Documents\repo\C#\Lab0603\Lab0603_EDM\obj\Debug\Lab0603_EDM.Form1.resources
+D:\Documents\repo\C#\Lab0603\Lab0603_EDM\obj\Debug\Lab0603_EDM.Properties.Resources.resources
+D:\Documents\repo\C#\Lab0603\Lab0603_EDM\obj\Debug\Lab0603_EDM.csproj.GenerateResource.cache
+D:\Documents\repo\C#\Lab0603\Lab0603_EDM\obj\Debug\Lab0603_EDM.csproj.CoreCompileInputs.cache
+D:\Documents\repo\C#\Lab0603\Lab0603_EDM\obj\Debug\Lab0603_EDM.csproj.CopyComplete
+D:\Documents\repo\C#\Lab0603\Lab0603_EDM\obj\Debug\Lab0603_EDM.exe
+D:\Documents\repo\C#\Lab0603\Lab0603_EDM\obj\Debug\Lab0603_EDM.pdb

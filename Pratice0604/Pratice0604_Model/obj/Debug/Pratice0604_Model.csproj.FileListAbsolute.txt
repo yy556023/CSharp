@@ -1,0 +1,15 @@
+D:\Documents\repo\C#\Pratice0604\Pratice0604_Model\bin\Debug\Pratice0604_Model.exe.config
+D:\Documents\repo\C#\Pratice0604\Pratice0604_Model\bin\Debug\Pratice0604_Model.exe
+D:\Documents\repo\C#\Pratice0604\Pratice0604_Model\bin\Debug\Pratice0604_Model.pdb
+D:\Documents\repo\C#\Pratice0604\Pratice0604_Model\bin\Debug\EntityFramework.dll
+D:\Documents\repo\C#\Pratice0604\Pratice0604_Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\Documents\repo\C#\Pratice0604\Pratice0604_Model\bin\Debug\EntityFramework.xml
+D:\Documents\repo\C#\Pratice0604\Pratice0604_Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\Documents\repo\C#\Pratice0604\Pratice0604_Model\bin\Debug\zh-Hant\EntityFramework.resources.dll
+D:\Documents\repo\C#\Pratice0604\Pratice0604_Model\obj\Debug\Pratice0604_Model.Form1.resources
+D:\Documents\repo\C#\Pratice0604\Pratice0604_Model\obj\Debug\Pratice0604_Model.Properties.Resources.resources
+D:\Documents\repo\C#\Pratice0604\Pratice0604_Model\obj\Debug\Pratice0604_Model.csproj.GenerateResource.cache
+D:\Documents\repo\C#\Pratice0604\Pratice0604_Model\obj\Debug\Pratice0604_Model.csproj.CoreCompileInputs.cache
+D:\Documents\repo\C#\Pratice0604\Pratice0604_Model\obj\Debug\Pratice0604_Model.csproj.CopyComplete
+D:\Documents\repo\C#\Pratice0604\Pratice0604_Model\obj\Debug\Pratice0604_Model.exe
+D:\Documents\repo\C#\Pratice0604\Pratice0604_Model\obj\Debug\Pratice0604_Model.pdb

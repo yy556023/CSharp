@@ -1,0 +1,7 @@
+D:\Documents\repo\C#\Lab0602\Lab0602\obj\Debug\net5.0-windows\Lab0602_var.csproj.AssemblyReference.cache
+D:\Documents\repo\C#\Lab0602\Lab0602\obj\Debug\net5.0-windows\Lab0602.Form1.resources
+D:\Documents\repo\C#\Lab0602\Lab0602\obj\Debug\net5.0-windows\Lab0602_var.csproj.GenerateResource.cache
+D:\Documents\repo\C#\Lab0602\Lab0602\obj\Debug\net5.0-windows\Lab0602_var.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\repo\C#\Lab0602\Lab0602\obj\Debug\net5.0-windows\Lab0602_var.AssemblyInfoInputs.cache
+D:\Documents\repo\C#\Lab0602\Lab0602\obj\Debug\net5.0-windows\Lab0602_var.AssemblyInfo.cs
+D:\Documents\repo\C#\Lab0602\Lab0602\obj\Debug\net5.0-windows\Lab0602_var.csproj.CoreCompileInputs.cache

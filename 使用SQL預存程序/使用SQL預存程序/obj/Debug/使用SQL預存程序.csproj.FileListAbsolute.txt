@@ -1,0 +1,10 @@
+E:\Documents\repo\C#\使用SQL預存程序\使用SQL預存程序\bin\Debug\使用SQL預存程序.exe.config
+E:\Documents\repo\C#\使用SQL預存程序\使用SQL預存程序\bin\Debug\使用SQL預存程序.exe
+E:\Documents\repo\C#\使用SQL預存程序\使用SQL預存程序\bin\Debug\使用SQL預存程序.pdb
+E:\Documents\repo\C#\使用SQL預存程序\使用SQL預存程序\obj\Debug\使用SQL預存程序.csproj.AssemblyReference.cache
+E:\Documents\repo\C#\使用SQL預存程序\使用SQL預存程序\obj\Debug\使用SQL預存程序.Form1.resources
+E:\Documents\repo\C#\使用SQL預存程序\使用SQL預存程序\obj\Debug\使用SQL預存程序.Properties.Resources.resources
+E:\Documents\repo\C#\使用SQL預存程序\使用SQL預存程序\obj\Debug\使用SQL預存程序.csproj.GenerateResource.cache
+E:\Documents\repo\C#\使用SQL預存程序\使用SQL預存程序\obj\Debug\使用SQL預存程序.csproj.CoreCompileInputs.cache
+E:\Documents\repo\C#\使用SQL預存程序\使用SQL預存程序\obj\Debug\使用SQL預存程序.exe
+E:\Documents\repo\C#\使用SQL預存程序\使用SQL預存程序\obj\Debug\使用SQL預存程序.pdb
