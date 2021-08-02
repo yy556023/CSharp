@@ -1,0 +1,10 @@
+D:\Documents\repo\C#\Pratice_Sql\Pratice_Sql\bin\Debug\Pratice_Sql.exe.config
+D:\Documents\repo\C#\Pratice_Sql\Pratice_Sql\bin\Debug\Pratice_Sql.exe
+D:\Documents\repo\C#\Pratice_Sql\Pratice_Sql\bin\Debug\Pratice_Sql.pdb
+D:\Documents\repo\C#\Pratice_Sql\Pratice_Sql\obj\Debug\Pratice_Sql.csproj.AssemblyReference.cache
+D:\Documents\repo\C#\Pratice_Sql\Pratice_Sql\obj\Debug\Pratice_Sql.Form1.resources
+D:\Documents\repo\C#\Pratice_Sql\Pratice_Sql\obj\Debug\Pratice_Sql.Properties.Resources.resources
+D:\Documents\repo\C#\Pratice_Sql\Pratice_Sql\obj\Debug\Pratice_Sql.csproj.GenerateResource.cache
+D:\Documents\repo\C#\Pratice_Sql\Pratice_Sql\obj\Debug\Pratice_Sql.csproj.CoreCompileInputs.cache
+D:\Documents\repo\C#\Pratice_Sql\Pratice_Sql\obj\Debug\Pratice_Sql.exe
+D:\Documents\repo\C#\Pratice_Sql\Pratice_Sql\obj\Debug\Pratice_Sql.pdb
